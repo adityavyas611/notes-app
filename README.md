@@ -39,6 +39,29 @@ yargs.command({
 
 ## Example
 
+##### Adding Notes
+
+```js
+node app.js add --title="titlename" --body="body detail"
+```
+
+##### Removing Notes
+
+```js
+node app.js remove --title="titlename"
+```
+
+##### Listing Notes
+
+```js
+node app.js list
+```
+
+##### Reading Notes
+
+```js
+node app.js read --title="titlename"
+```
 
 ## Built With
 
